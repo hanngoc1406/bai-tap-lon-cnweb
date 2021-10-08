@@ -1,0 +1,252 @@
+#dream {
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    padding: 20px 0;
+}
+
+.col-sm {
+    text-align: center;
+}
+
+.social-logo ul {
+    float: left;
+    display: flex;
+}
+
+.social-logo li {
+    display: inline-block;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.social-logo {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 0;
+}
+
+.social-logo .fa-facebook-square {
+    color: #3c5b9b;
+}
+
+
+.social-logo .fa-youtube-square {
+    color: red;
+}
+
+.social-logo .fa-twitter {
+    color: #3c5b9b;
+}
+
+.social-logo img {
+    height: 24px;
+}
+
+.middle-menu ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+
+.middle-menu > ul > li {
+    display: inline-block;
+}
+
+.middle-menu > ul > li > a {
+    color: #ec1d24;
+    max-width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.middle-menu ul li {
+    border-right: 1px solid #ec1d24;
+}
+
+
+.middle-menu li:last-child {
+    border: none;
+}
+
+.search-right {
+    width: 100%;
+    height: 24px;
+    display: flex;
+}
+
+.search-right input {
+    border: none;
+    background-color: #e6e6e6;
+    border-radius: 15px;
+}
+
+.search-right button {
+    border: none;
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+}
+
+.fa-search {
+    color: #fff;
+}
+
+.main-menu {
+    width: 100%;
+    background-color: #0082b4;
+}
+
+.h-menu ul {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.h-menu > ul > li {
+    display: inline-block;
+}
+
+.h-menu > ul > li > a {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 5px;
+    letter-spacing: -1px;
+    font-size: 14px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fa-home {
+    background-color: #fff;
+    color: #065fa3;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+
+.fa-bars {
+    font-size: 24px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+
+.h-menu > ul > li > ul {
+    display: none;
+}
+
+.h-menu li:hover > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.how-news-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ec1c25;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.realTime {
+    font-size: 13px;
+    line-height: 43px;
+    color: #666;
+}
+
+.hot-news-items .thumbnail {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.hot-news-items > h3 {
+    font-size: 24px;
+    text-align: justify;
+    line-height: 1.4;
+    display: block;
+    padding-top: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+.focus-news > ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #ec1c25;
+    font-family: 'Merriweather', serif;
+}
+
+.focus-news > ul > li {
+    flex: 1 1 auto;
+    margin-right: 20px;
+}
+
+.focus-news > ul > li:first-child {
+    border-right: 1px #666 solid;
+}
+
+.under-hot-news {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+}
+
+.items {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.items img {
+    object-fit: fill;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.items a {
+    font-size: 14px;
+    font-family: Merriweather-Bold;
+    line-height: 1.5;
+    color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+    #dream {
+        width: 100%;
+    }
+
+    .social-logo ul {
+        display: none;
+    }
+
+    .middle-menu > ul {
+        max-width: 100%;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }    
+
+    .middle-menu > ul > li {
+        flex: 1 0 auto;
+    }
+
+  }
